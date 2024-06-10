@@ -15,9 +15,7 @@ const connect = function () {
     console.log(data);
   });
 
-  conn.on("close", () => {
-    console.log("You ded cuz you idled");
-  });
+  
 
   return conn;
 };
